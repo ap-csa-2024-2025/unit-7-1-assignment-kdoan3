@@ -8,13 +8,15 @@ public class Main
     Scanner sc = new Scanner(System.in);
     String input = "";
 
+    ArrayList<String> words = new ArrayList<String>();
     System.out.println("Please enter words, enter STOP to stop the loop.");
-    String fdjsal = sc.next();
-
 
     while (!input.equals("STOP"))
     {
-      System.out.println("infinite loop! replace with your code");
+      System.out.println("Inside the loop. Enter a word");
+      input = sc.nextLine();
+      words.add(input);
+      System.out.println("Just added the word. ArrayList is now" word);
     }
   }
 }
